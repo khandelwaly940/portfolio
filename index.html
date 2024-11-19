@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="pic.png">
+    <div class="container">
+      <h1>Yash Khandelwal</h1>
+      <h2>Software Engineer</h2>
+      <p>
+        Hello! I am Yash Khandelwal, currently pursuing my B.Tech in Computer Science (3rd Year). 
+        I am passionate about technology and programming, with a strong foundation in languages like Java and Python. 
+        My expertise extends to Unix/Linux systems, web development (HTML, CSS, JavaScript), and database management (SQL).
+    </p>
+    
+      <br/>
+      <a href="#skill-section" class="read-more">Read More</a>
+    </div>
+  </header>
+  <section id="skill-section">
+    <h2>Skills</h2>
+    <div class="wrapper">
+      <div class="skill-container">
+        <h3>Front-End</h3>
+        <ul>
+          <li>HTML, CSS <progress max="100" value="100"></progress> </li>
+          <li>JavaScript <progress max="100" value="100"></progress> </li>
+          <li>React.js <progress max="100" value="70"></progress> </li>
+        </ul>
+      </div>
+      <div class="skill-container">
+        <h3>Back-End</h3>
+        <ul>
+            <li>Python <progress max="100" value="50"></progress> </li>
+            <li>Java <progress max="100" value="70"></progress> </li>
+        </ul>
+    	</div>
+    </div>
+  </section>
+  <section id="projects-section">
+    <h2>Projects</h2>
+    <div class="flex-container">
+      <details>
+        <summary>
+          <span class="number">1</span>
+          <h3>Image Steganography</h3>
+        </summary>
+        <div class="text-container">
+          <p>
+            Developed a desktop app using Python for hiding and retrieving secret messages within images. 
+            Utilized Pillow for image processing and cryptography for data protection.
+        </p>
+          <a class="project-link" href="https://github.com/khandelwaly940/Image-Steganography">Github</a>
+        </div>
+      </details>
+      <details>
+        <summary><span class="number">2</span><h3>Blockchain from Scratch</h3></summary>
+        <div class="text-container">
+          <p>
+            Built a blockchain with Python, Flask, and JavaScript, supporting Proof of Work, RSA encryption, 
+            and wallet creation using public/private key encryption.
+        </p>
+          <a class="project-link" href="https://github.com/khandelwaly940/Blockchain-from-scratch">Github</a>
+        </div>
+      </details>
+      <details>
+        <summary><span class="number">3</span><h3>File Sharing App - ShareMate</h3></summary>
+        <div class="text-container">
+          <p>
+            Engineered a file-sharing app using Python and Tkinter. Achieved high-speed transfers of up to 20 MB/s 
+            with socket programming.
+        </p>
+          <a class="project-link" href="https://github.com/khandelwaly940/ShareMate">Github</a>
+        </div>
+      </details>
+    </div>
+  </section>
+  <footer>
+    <div class="grid-container">
+      <span id="at-symbol">@</span>
+      <div>
+        <h3>Contact</h3>
+        <a href="mailto:yashkhandelwal844@gmail.com">yashkhandelwal844@gmail.com</a>
+        <h3>Location</h3>
+        <a href="https://maps.app.goo.gl/9FRv3chnUFfJYpt48">Indore, India</a>
+      </div>
+      <div>
+        <h3>LinkedIn</h3>
+        <a href="https://www.linkedin.com/in/khandelwaly940">khandelwaly940</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
